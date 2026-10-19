@@ -1,6 +1,6 @@
 # Zecosia — Privacy Policy
 
-**Effective date:** October 1, 2026 · [Türkçe aşağıda](#türkçe)
+**Effective date:** October 19, 2026 · [Türkçe aşağıda](#türkçe)
 **Published at:** https://frkxo.github.io/zecosia-legal/
 
 Zecosia ("the app") builds outfits from the clothes you already own. This policy explains what happens with
@@ -21,6 +21,48 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
 
 - **Account details:** your email address (none for guests), how you sign in (Apple, Google or email), and
   when you joined. Sign in with Apple's "Hide My Email" is supported.
+- **Your profile** (accounts only, set up once after sign-in and editable under Settings): a username, and
+  if you choose to add them, a display name, a profile photo and your gender (Male, Female or "Prefer not to
+  say"). The name may be filled in from your Apple or Google account; you can change or clear it. The gender is
+  used only to pick pieces that suit you.
+- **Your wardrobe:** the photos you add, the cleaned-up product images made fr
+4. Apple ve Google maddesi ("The app receives only your identity and email fro
+  The app receives only your identity, your email and, if you share it, your n
+  Uygulama onlardan yalnızca kimliğini, e-postanı ve paylaşırsan adını alır.
+
+5. "Camera and photos" / "Kamera ve fotoğraflar" (satır 58 / TR 143), cümleyi değiştir:
+The app only sees the photos you take or pick for your wardrobe, and the photo you pick for your profile.
+Uygulama yalnızca gardırobun için çektiğin ya da seçtiğin fotoğrafları ve proffı görür.
+
+6. "Deleting your data" / "Verilerini silmek": "A single piece" maddesinden sonra yeni madde:
+- **Your profile photo:** in Settings, tap the trash icon on the photo and save.
+- **Profil fotoğrafın:** Ayarlar'da fotoğrafın üstündeki çöp kutusuna dokun ve kaydet.
+
+Push'ladıktan sonra GitHub Pages birkaç dakika içinde yayınlar; App Store Connect'teki URL aynı kaldığı için orada bir şey yapman gerekmiyor.
+
+✻ Cooked for 38s · done 5:10 PM
+
+❯ aga direkt tüm emtni ver böyle parça parça verme kopyalayıp yapıştırayım
+
+  Read 1 file
+
+index.md'nin tamamı, değişiklikler işlenmiş hali. Dosyanın içeriğini bununla d
+
+# Zecosia — Privacy Policy
+
+**Effective date:** October 19, 2026 · [Türkçe aşağıda](#türkçe)
+**Published at:** https://frkxo.github.io/zecosia-legal/
+
+Zecosia ("the app") builds outfits from the clothes you already own. This policy explains what happens with
+your data when you use it. The short version: **the app stores your wardrobe so it can suggest outfits, uses AI
+providers only to do that, has no ads and no analytics, and you can delete everything from inside the app.**
+
+## Using the app as a guest or with an account
+
+only, set up once after sign-in and editable under Settings): a username, and
+  if you choose to add them, a display name, a profile photo and your gender (Male, Female or "Prefer not to
+  say"). The name may be filled in from your Apple or Google account; you can change or clear it. The gender is
+  used only to pick pieces that suit you.
 - **Your wardrobe:** the photos you add, the cleaned-up product images made from them, and each piece's
   description (name, color, type, fit, material and similar details, which you can edit), plus whether a piece
   is available. Photos of a full outfit or a mirror selfie may show you; they are stored privately and only
@@ -35,27 +77,29 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
 
 - **OpenAI** analyzes the photos you add (to recognize each piece and describe it), creates the cleaned-up
   product images, and picks your outfits from your wardrobe's descriptions and your request. These requests
-  go from our servers, not from your phone, and carry no name or email. Under OpenAI's API terms this data is
-  not used to train their models. [OpenAI privacy policy](https://openai.com/policies/privacy-policy)
+  go from our servers, not from your phone, and carry no name or email. If you set a gender, it goes along
+  with the outfit request so the looks fit you; your name, username and profile photo never go to OpenAI.
+  Under OpenAI's API terms this data is not used to train their models.
+  [OpenAI privacy policy](https://openai.com/policies/privacy-policy)
 - **Open-Meteo** provides the weather forecast (see "Your location").
   [Open-Meteo terms](https://open-meteo.com/en/terms)
-- **Brevo** delivers the sign-in codes sent to your email. [Brevo privacy policy](https://www.brevo.com/legal/privacypolicy/)
+- **Brevo** delivers the sign-in codes sent to your email. [Brevo privacy polilegal/privacypolicy/)
 - **Apple and Google** handle Sign in with Apple and Google sign-in under their own policies
   ([Apple](https://www.apple.com/legal/privacy/) · [Google](https://policies.google.com/privacy)). The app
-  receives only your identity and email from them.
+  receives only your identity, your email and, if you share it, your name from them.
 
 We do not sell your data, and the app contains no advertising, analytics or tracking SDKs.
 
 ## Your location
 
 Location is **off until you ask for it** in "Find me a Look", and the app reads it only while it is open, never
-in the background. When allowed, your phone sends an approximate position directly to Open-Meteo to get the
+in the background. When allowed, your phone sends an approximate position direthe
 forecast for when you'll wear the outfit. Your position is **not stored** by us. Without location you can type
 a city instead, or continue without weather.
 
 ## Camera and photos
 
-The app only sees the photos you take or pick for your wardrobe.
+The app only sees the photos you take or pick for your wardrobe, and the photo you pick for your profile.
 
 ## On your device
 
@@ -64,8 +108,9 @@ Your sign-in session and your language choice are kept on your phone.
 ## Deleting your data
 
 - **A single piece:** open it in your wardrobe and tap **Delete piece**.
-- **Everything:** in the app, **You → Delete account** (or **Delete guest data** for guests). This permanently
-  removes your photos, wardrobe, looks and account from our servers. It cannot be undone.
+- **Your profile photo:** in Settings, tap the trash icon on the photo and save.
+- **Everything:** in the app, **You → Delete account** (or **Delete guest datanently
+  removes your photos, profile, wardrobe, looks and account from our servers. It cannot be undone.
 
 ## Children
 
@@ -73,24 +118,7 @@ The app is not directed at children and does not knowingly collect data from any
 
 ## Changes to this policy
 
-If the app changes how it handles data, this policy will be updated and the effective date above will change.
-
-## Contact
-
-Questions about this policy or your data: **zecosia1907@gmail.com**
-
----
-
-<a id="türkçe"></a>
-
-# Zecosia — Gizlilik Politikası
-
-**Yürürlük tarihi:** 1 Ekim 2026
-
-Zecosia ("uygulama"), zaten sahip olduğun kıyafetlerden kombin hazırlar. Bu politika, uygulamayı kullanırken
-verilerine ne olduğunu açıklar. Kısaca: **uygulama kombin önerebilmek için gardırobunu saklar, yapay zekâ
-sağlayıcılarını yalnızca bunun için kullanır, reklam ve analitik içermez; her şeyi uygulamanın içinden
-silebilirsin.**
+If the app changes how it handles data, this policy will be updated and the efange.
 
 ## Misafir olarak ya da hesapla kullanım
 
@@ -106,41 +134,21 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
 
 - **Hesap bilgileri:** e-posta adresin (misafirlerde yok), nasıl giriş yaptığın (Apple, Google ya da e-posta)
   ve ne zaman katıldığın. Apple'ın "E-postamı Gizle" özelliği desteklenir.
+- **Profilin** (yalnızca hesaplarda; girişten sonra bir kez oluşturulur, Ayarlar'dan düzenlenir): bir kullanıcı
+  adı ve eklemek istersen görünen adın, profil fotoğrafın ve cinsiyetin (Erkek, Kadın ya da "Belirtmek
+  istemiyorum"). Ad, Apple ya da Google hesabından önceden doldurulabilir; değiştirebilir ya da silebilirsin.
+  Cinsiyet yalnızca sana uygun parçaları seçmek için kullanılır.
 - **Gardırobun:** eklediğin fotoğraflar, bunlardan üretilen temiz ürün görselleri ve her parçanın açıklaması
-  (ad, renk, tür, kalıp, kumaş gibi bilgiler; düzenleyebilirsin), ayrıca parçanın kullanılabilir olup olmadığı.
-  Tam kombin fotoğrafları ya da ayna selfie'leri seni gösterebilir; gizli olarak saklanır ve yalnızca senin
-  hesabın erişebilir.
-- **Kombinlerin:** önerilen her kombindeki parçalar, kısa başlığı ve açıklaması, istediğin şey (ortam, tarz,
-  zaman, oraya nasıl gideceğin), kombinin hazırlandığı hava özeti ve onu giyip giymediğin, kaydedip etmediğin
-  ya da başka bir kombin isteyip istemediğin.
-- **Tercihler:** hava durumu için belirlediğin bir şehir (varsa).
-- **Kullanım sayıları:** her yapay zekâ isteğinin türü ve zamanı; günlük sınırları uygulamak için.
-
-## Verilerini bizim için kimler işler
-
-- **OpenAI**, eklediğin fotoğrafları analiz eder (her parçayı tanıyıp tarif etmek için), temiz ürün görsellerini
-  üretir ve gardırobunun açıklamalarıyla isteğine göre kombinini seçer. Bu istekler telefonundan değil
-  sunucularımızdan gider; adını ya da e-postanı içermez. OpenAI'ın API şartlarına göre bu veriler modellerini
-  eğitmek için kullanılmaz. [OpenAI gizlilik politikası](https://openai.com/policies/privacy-policy)
-- **Open-Meteo** hava durumu tahminini sağlar ("Konumun" bölümüne bak).
-  [Open-Meteo şartları](https://open-meteo.com/en/terms)
-- **Brevo**, e-postana gönderilen giriş kodlarını iletir. [Brevo gizlilik politikası](https://www.brevo.com/legal/privacypolicy/)
-- **Apple ve Google**, Apple ile giriş ve Google ile girişi kendi politikalarına göre yürütür
-  ([Apple](https://www.apple.com/legal/privacy/) · [Google](https://policies.google.com/privacy)). Uygulama
-  onlardan yalnızca kimliğini ve e-postanı alır.
-
-Verilerini satmayız; uygulamada reklam, analitik ya da takip SDK'sı yoktur.
-
-## Konumun
-
-Konum, "Bana bir kombin bul" içinde sen isteyene kadar **kapalıdır** ve uygulama onu yalnızca açıkken okur,
+  (ad, renk, tür, kalıp, kumaş gibi bilgiler; düzenleyebilirsin), ayrıca parçamadığı.
+e sen isteyene kadar **kapalıdır** ve uygulama onu yalnızca açıkken okur,
 asla arka planda değil. İzin verirsen telefonun, kombini giyeceğin zamanın hava tahmini için yaklaşık konumunu
 doğrudan Open-Meteo'ya gönderir. Konumun bizim tarafımızdan **saklanmaz**. Konum olmadan bir şehir yazabilir
 ya da hava durumu olmadan devam edebilirsin.
 
 ## Kamera ve fotoğraflar
 
-Uygulama yalnızca gardırobun için çektiğin ya da seçtiğin fotoğrafları görür.
+Uygulama yalnızca gardırobun için çektiğin ya da seçtiğin fotoğrafları ve profilin için seçtiğin fotoğrafı
+görür.
 
 ## Cihazında
 
@@ -149,8 +157,10 @@ Oturumun ve dil seçimin telefonunda tutulur.
 ## Verilerini silmek
 
 - **Tek bir parça:** gardırobunda parçayı aç ve **Parçayı sil**'e dokun.
+- **Profil fotoğrafın:** Ayarlar'da fotoğrafın üstündeki çöp kutusuna dokun ve kaydet.
 - **Her şey:** uygulamada **Profil → Hesabı sil** (misafirler için **Misafir verilerini sil**). Bu işlem
-  fotoğraflarını, gardırobunu, kombinlerini ve hesabını sunucularımızdan kalıcı olarak siler. Geri alınamaz.
+  fotoğraflarını, profilini, gardırobunu, kombinlerini ve hesabını sunucularımızdan kalıcı olarak siler. Geri
+  alınamaz.
 
 ## Çocuklar
 
