@@ -1,11 +1,12 @@
 # Zecosia — Privacy Policy
 
-**Effective date:** October 19, 2026 · [Türkçe aşağıda](#türkçe)
+**Effective date:** October 24, 2026 · [Türkçe aşağıda](#türkçe)
 **Published at:** https://frkxo.github.io/zecosia-legal/
 
 Zecosia ("the app") builds outfits from the clothes you already own. This policy explains what happens with
 your data when you use it. The short version: **the app stores your wardrobe so it can suggest outfits, uses AI
-providers only to do that, has no ads and no analytics, and you can delete everything from inside the app.**
+providers only to do that, has no ads and no third-party analytics or tracking, and you can delete everything
+from inside the app.**
 
 ## Using the app as a guest or with an account
 
@@ -31,17 +32,22 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   your account can access them.
 - **Your looks:** the pieces in each suggested outfit, its short title and explanation, what you asked for
   (occasion, vibe, time, how you're getting there), the weather summary it was built for, and whether you
-  wore it, saved it or asked for another.
+  wore it, saved it or asked for another. If you describe the occasion in your own words instead of picking
+  one, we also store that text and how Zecosia read it: the nearest standard occasion, a short general
+  category (such as "job interview"), how formal and how active it is, whether it is indoors or outdoors, and
+  the vibes it offered you.
 - **Preferences:** a city for the weather, if you set one.
 - **Usage counts:** the type and time of each AI request, used to apply daily limits.
 
 ## Who processes your data for us
 
 - **OpenAI** analyzes the photos you add (to recognize each piece and describe it), creates the cleaned-up
-  product images, and picks your outfits from your wardrobe's descriptions and your request. These requests
-  go from our servers, not from your phone, and carry no name or email. If you set a gender, it goes along
-  with the outfit request so the looks fit you; your name, username and profile photo never go to OpenAI.
-  Under OpenAI's API terms this data is not used to train their models.
+  product images, and picks your outfits from your wardrobe's descriptions and your request. If you describe
+  your occasion in your own words, OpenAI also reads that text to understand it and suggest fitting vibes. It
+  is sent as you wrote it, so please leave out names or other personal details. These requests go from our
+  servers, not from your phone, and we add no name or email to them. If you set a gender, it goes along with
+  the outfit request so the looks fit you; your name, username and profile photo never go to OpenAI. Under
+  OpenAI's API terms this data is not used to train their models.
   [OpenAI privacy policy](https://openai.com/policies/privacy-policy)
 - **Open-Meteo** provides the weather forecast (see "Your location").
   [Open-Meteo terms](https://open-meteo.com/en/terms)
@@ -51,6 +57,12 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   receives only your identity, your email and, if you share it, your name from them.
 
 We do not sell your data, and the app contains no advertising, analytics or tracking SDKs.
+
+## Improving the app
+
+To see which occasions are missing from the app's list, we look at total counts of the general categories
+Zecosia gives to described occasions (for example, how often "job interview" comes up). Only those categories
+are used for this, not the text you typed, and nothing is shared or made public.
 
 ## Your location
 
@@ -72,7 +84,8 @@ Your sign-in session and your language choice are kept on your phone.
 - **A single piece:** open it in your wardrobe and tap **Delete piece**.
 - **Your profile photo:** in Settings, tap the trash icon on the photo and save.
 - **Everything:** in the app, **You → Delete account** (or **Delete guest data** for guests). This permanently
-  removes your photos, profile, wardrobe, looks and account from our servers. It cannot be undone.
+  removes your photos, profile, wardrobe, looks (including any occasions you described) and account from our
+  servers. It cannot be undone.
 
 ## Children
 
@@ -92,12 +105,12 @@ Questions about this policy or your data: **zecosia1907@gmail.com**
 
 # Zecosia — Gizlilik Politikası
 
-**Yürürlük tarihi:** 19 Ekim 2026
+**Yürürlük tarihi:** 24 Ekim 2026
 
 Zecosia ("uygulama"), zaten sahip olduğun kıyafetlerden kombin hazırlar. Bu politika, uygulamayı kullanırken
 verilerine ne olduğunu açıklar. Kısaca: **uygulama kombin önerebilmek için gardırobunu saklar, yapay zekâ
-sağlayıcılarını yalnızca bunun için kullanır, reklam ve analitik içermez; her şeyi uygulamanın içinden
-silebilirsin.**
+sağlayıcılarını yalnızca bunun için kullanır, reklam, üçüncü taraf analitik ya da takip içermez; her şeyi
+uygulamanın içinden silebilirsin.**
 
 ## Misafir olarak ya da hesapla kullanım
 
@@ -123,17 +136,22 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   hesabın erişebilir.
 - **Kombinlerin:** önerilen her kombindeki parçalar, kısa başlığı ve açıklaması, istediğin şey (ortam, tarz,
   zaman, oraya nasıl gideceğin), kombinin hazırlandığı hava özeti ve onu giyip giymediğin, kaydedip etmediğin
-  ya da başka bir kombin isteyip istemediğin.
+  ya da başka bir kombin isteyip istemediğin. Ortamı listeden seçmek yerine kendi cümlelerinle anlatırsan bu
+  metni ve Zecosia'nın onu nasıl yorumladığını da saklarız: en yakın standart ortam, kısa ve genel bir kategori
+  (örneğin "iş görüşmesi"), ne kadar resmi ve hareketli olduğu, içeride mi dışarıda mı geçtiği ve sana önerdiği
+  tarzlar.
 - **Tercihler:** hava durumu için belirlediğin bir şehir (varsa).
 - **Kullanım sayıları:** her yapay zekâ isteğinin türü ve zamanı; günlük sınırları uygulamak için.
 
 ## Verilerini bizim için kimler işler
 
 - **OpenAI**, eklediğin fotoğrafları analiz eder (her parçayı tanıyıp tarif etmek için), temiz ürün görsellerini
-  üretir ve gardırobunun açıklamalarıyla isteğine göre kombinini seçer. Bu istekler telefonundan değil
-  sunucularımızdan gider; adını ya da e-postanı içermez. Cinsiyet belirlediysen kombinler sana uysun diye
-  kombin isteğiyle birlikte gönderilir; adın, kullanıcı adın ve profil fotoğrafın OpenAI'a hiç gitmez.
-  OpenAI'ın API şartlarına göre bu veriler modellerini eğitmek için kullanılmaz.
+  üretir ve gardırobunun açıklamalarıyla isteğine göre kombinini seçer. Ortamını kendi cümlelerinle
+  anlatırsan OpenAI bu metni de anlamak ve uygun tarzlar önermek için okur. Metin yazdığın gibi gönderilir, bu
+  yüzden isim ya da başka kişisel bilgi yazmamanı öneririz. Bu istekler telefonundan değil sunucularımızdan
+  gider; biz bunlara adını ya da e-postanı eklemeyiz. Cinsiyet belirlediysen kombinler sana uysun diye kombin
+  isteğiyle birlikte gönderilir; adın, kullanıcı adın ve profil fotoğrafın OpenAI'a hiç gitmez. OpenAI'ın API
+  şartlarına göre bu veriler modellerini eğitmek için kullanılmaz.
   [OpenAI gizlilik politikası](https://openai.com/policies/privacy-policy)
 - **Open-Meteo** hava durumu tahminini sağlar ("Konumun" bölümüne bak).
   [Open-Meteo şartları](https://open-meteo.com/en/terms)
@@ -143,6 +161,13 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   onlardan yalnızca kimliğini, e-postanı ve paylaşırsan adını alır.
 
 Verilerini satmayız; uygulamada reklam, analitik ya da takip SDK'sı yoktur.
+
+## Uygulamayı geliştirmek
+
+Uygulamanın listesinde hangi ortamların eksik olduğunu görmek için Zecosia'nın anlatılan ortamlara verdiği
+genel kategorilerin toplam sayılarına bakarız (örneğin "iş görüşmesi"nin ne sıklıkla geçtiği). Bunun için
+yalnızca bu kategoriler kullanılır, yazdığın metin kullanılmaz; hiçbir şey paylaşılmaz ya da herkese açık hale
+getirilmez.
 
 ## Konumun
 
@@ -165,8 +190,8 @@ Oturumun ve dil seçimin telefonunda tutulur.
 - **Tek bir parça:** gardırobunda parçayı aç ve **Parçayı sil**'e dokun.
 - **Profil fotoğrafın:** Ayarlar'da fotoğrafın üstündeki çöp kutusuna dokun ve kaydet.
 - **Her şey:** uygulamada **Profil → Hesabı sil** (misafirler için **Misafir verilerini sil**). Bu işlem
-  fotoğraflarını, profilini, gardırobunu, kombinlerini ve hesabını sunucularımızdan kalıcı olarak siler. Geri
-  alınamaz.
+  fotoğraflarını, profilini, gardırobunu, kombinlerini (anlattığın ortamlar dahil) ve hesabını sunucularımızdan
+  kalıcı olarak siler. Geri alınamaz.
 
 ## Çocuklar
 
