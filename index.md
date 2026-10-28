@@ -1,6 +1,6 @@
 # Zecosia — Privacy Policy
 
-**Effective date:** October 24, 2026 · [Türkçe aşağıda](#türkçe)
+**Effective date:** October 28, 2026 · [Türkçe aşağıda](#türkçe)
 **Published at:** https://frkxo.github.io/zecosia-legal/
 
 Zecosia ("the app") builds outfits from the clothes you already own. This policy explains what happens with
@@ -36,6 +36,9 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   one, we also store that text and how Zecosia read it: the nearest standard occasion, a short general
   category (such as "job interview"), how formal and how active it is, whether it is indoors or outdoors, and
   the vibes it offered you.
+- **Outfit requests in progress:** while a look is being built, the request and its status (and, once ready,
+  the look), so the look is not lost if you leave the app before it is done.
+- **Notifications:** if you allow them, your phone's push token, used only to tell you when an outfit is ready.
 - **Preferences:** a city for the weather, if you set one.
 - **Usage counts:** the type and time of each AI request, used to apply daily limits.
 
@@ -51,8 +54,11 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   [OpenAI privacy policy](https://openai.com/policies/privacy-policy)
 - **Open-Meteo** provides the weather forecast (see "Your location").
   [Open-Meteo terms](https://open-meteo.com/en/terms)
+- **Expo** (650 Industries) relays the "Your outfit is ready" notification to Apple's push service, if you
+  allowed notifications. It receives your push token and the notification itself, which says only that an
+  outfit is ready. [Expo privacy policy](https://expo.dev/privacy)
 - **Brevo** delivers the sign-in codes sent to your email. [Brevo privacy policy](https://www.brevo.com/legal/privacypolicy/)
-- **Apple and Google** handle Sign in with Apple and Google sign-in under their own policies
+- **Apple and Google** handle Sign in with Apple and Google sign-in, and Apple delivers notifications, under their own policies
   ([Apple](https://www.apple.com/legal/privacy/) · [Google](https://policies.google.com/privacy)). The app
   receives only your identity, your email and, if you share it, your name from them.
 
@@ -71,21 +77,29 @@ in the background. When allowed, your phone sends an approximate position direct
 forecast for when you'll wear the outfit. Your position is **not stored** by us. Without location you can type
 a city instead, or continue without weather.
 
+## Notifications
+
+Notifications are **off until you allow them**, which the app offers while it is building an outfit. If you
+leave the app before the outfit is ready, you get one notification: "Your outfit is ready." It shows nothing
+about the outfit, your clothes or your plans; it only carries an internal reference so tapping it opens that
+look. Without notifications everything works the same, and the look is waiting when you come back. You can
+turn them off at any time in the iPhone's Settings → Zecosia → Notifications.
+
 ## Camera and photos
 
 The app only sees the photos you take or pick for your wardrobe, and the photo you pick for your profile.
 
 ## On your device
 
-Your sign-in session and your language choice are kept on your phone.
+Your sign-in session, your language choice and an outfit request that is still being built are kept on your phone.
 
 ## Deleting your data
 
 - **A single piece:** open it in your wardrobe and tap **Delete piece**.
 - **Your profile photo:** in Settings, tap the trash icon on the photo and save.
 - **Everything:** in the app, **You → Delete account** (or **Delete guest data** for guests). This permanently
-  removes your photos, profile, wardrobe, looks (including any occasions you described) and account from our
-  servers. It cannot be undone.
+  removes your photos, profile, wardrobe, looks (including any occasions you described), your push token and
+  your account from our servers. It cannot be undone.
 
 ## Children
 
@@ -105,7 +119,7 @@ Questions about this policy or your data: **zecosia1907@gmail.com**
 
 # Zecosia — Gizlilik Politikası
 
-**Yürürlük tarihi:** 24 Ekim 2026
+**Yürürlük tarihi:** 28 Ekim 2026
 
 Zecosia ("uygulama"), zaten sahip olduğun kıyafetlerden kombin hazırlar. Bu politika, uygulamayı kullanırken
 verilerine ne olduğunu açıklar. Kısaca: **uygulama kombin önerebilmek için gardırobunu saklar, yapay zekâ
@@ -140,6 +154,10 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   metni ve Zecosia'nın onu nasıl yorumladığını da saklarız: en yakın standart ortam, kısa ve genel bir kategori
   (örneğin "iş görüşmesi"), ne kadar resmi ve hareketli olduğu, içeride mi dışarıda mı geçtiği ve sana önerdiği
   tarzlar.
+- **Hazırlanmakta olan kombin istekleri:** bir kombin hazırlanırken istek ve durumu (hazır olunca da kombin);
+  böylece kombin bitmeden uygulamadan çıksan da kaybolmaz.
+- **Bildirimler:** izin verirsen telefonunun bildirim (push) anahtarı; yalnızca kombinin hazır olduğunu haber
+  vermek için kullanılır.
 - **Tercihler:** hava durumu için belirlediğin bir şehir (varsa).
 - **Kullanım sayıları:** her yapay zekâ isteğinin türü ve zamanı; günlük sınırları uygulamak için.
 
@@ -155,8 +173,11 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   [OpenAI gizlilik politikası](https://openai.com/policies/privacy-policy)
 - **Open-Meteo** hava durumu tahminini sağlar ("Konumun" bölümüne bak).
   [Open-Meteo şartları](https://open-meteo.com/en/terms)
+- **Expo** (650 Industries), bildirimlere izin verdiysen "Kombinin hazır" bildirimini Apple'ın bildirim
+  servisine iletir. Bildirim anahtarını ve yalnızca bir kombinin hazır olduğunu söyleyen bildirimin kendisini
+  alır. [Expo gizlilik politikası](https://expo.dev/privacy)
 - **Brevo**, e-postana gönderilen giriş kodlarını iletir. [Brevo gizlilik politikası](https://www.brevo.com/legal/privacypolicy/)
-- **Apple ve Google**, Apple ile giriş ve Google ile girişi kendi politikalarına göre yürütür
+- **Apple ve Google**, Apple ile giriş ve Google ile girişi, Apple ayrıca bildirimlerin iletilmesini kendi politikalarına göre yürütür
   ([Apple](https://www.apple.com/legal/privacy/) · [Google](https://policies.google.com/privacy)). Uygulama
   onlardan yalnızca kimliğini, e-postanı ve paylaşırsan adını alır.
 
@@ -176,6 +197,14 @@ asla arka planda değil. İzin verirsen telefonun, kombini giyeceğin zamanın h
 doğrudan Open-Meteo'ya gönderir. Konumun bizim tarafımızdan **saklanmaz**. Konum olmadan bir şehir yazabilir
 ya da hava durumu olmadan devam edebilirsin.
 
+## Bildirimler
+
+Bildirimler sen **izin verene kadar kapalıdır**; uygulama bunu bir kombin hazırlanırken önerir. Kombin hazır
+olmadan uygulamadan çıkarsan tek bir bildirim alırsın: "Kombinin hazır." Bildirimde kombin, kıyafetlerin ya da
+planların hakkında hiçbir bilgi yoktur; yalnızca dokununca o kombini açmak için uygulamanın iç bir referansını
+taşır. Bildirimler olmadan da her şey aynı çalışır ve döndüğünde kombin seni bekler. Bildirimleri istediğin
+zaman iPhone'un Ayarlar → Zecosia → Bildirimler bölümünden kapatabilirsin.
+
 ## Kamera ve fotoğraflar
 
 Uygulama yalnızca gardırobun için çektiğin ya da seçtiğin fotoğrafları ve profilin için seçtiğin fotoğrafı
@@ -183,15 +212,15 @@ görür.
 
 ## Cihazında
 
-Oturumun ve dil seçimin telefonunda tutulur.
+Oturumun, dil seçimin ve hâlâ hazırlanmakta olan bir kombin isteği telefonunda tutulur.
 
 ## Verilerini silmek
 
 - **Tek bir parça:** gardırobunda parçayı aç ve **Parçayı sil**'e dokun.
 - **Profil fotoğrafın:** Ayarlar'da fotoğrafın üstündeki çöp kutusuna dokun ve kaydet.
 - **Her şey:** uygulamada **Profil → Hesabı sil** (misafirler için **Misafir verilerini sil**). Bu işlem
-  fotoğraflarını, profilini, gardırobunu, kombinlerini (anlattığın ortamlar dahil) ve hesabını sunucularımızdan
-  kalıcı olarak siler. Geri alınamaz.
+  fotoğraflarını, profilini, gardırobunu, kombinlerini (anlattığın ortamlar dahil), bildirim anahtarını ve
+  hesabını sunucularımızdan kalıcı olarak siler. Geri alınamaz.
 
 ## Çocuklar
 
