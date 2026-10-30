@@ -1,6 +1,6 @@
 # Zecosia — Privacy Policy
 
-**Effective date:** October 28, 2026 · [Türkçe aşağıda](#türkçe)
+**Effective date:** October 30, 2026 · [Türkçe aşağıda](#türkçe)
 **Published at:** https://frkxo.github.io/zecosia-legal/
 
 Zecosia ("the app") builds outfits from the clothes you already own. This policy explains what happens with
@@ -23,9 +23,9 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
 - **Account details:** your email address (none for guests), how you sign in (Apple, Google or email), and
   when you joined. Sign in with Apple's "Hide My Email" is supported.
 - **Your profile** (accounts only, set up once after sign-in and editable under Settings): a username, and
-  if you choose to add them, a display name, a profile photo and your gender (Male, Female or "Prefer not to
-  say"). The name may be filled in from your Apple or Google account; you can change or clear it. The gender is
-  used only to pick pieces that suit you.
+  if you choose to add them, a display name, a profile photo and your gender (Male, Female, Non-binary or
+  "Prefer not to say"). The name may be filled in from your Apple or Google account; you can change or clear it.
+  The gender is used only to pick pieces that suit you.
 - **Your wardrobe:** the photos you add, the cleaned-up product images made from them, and each piece's
   description (name, color, type, fit, material and similar details, which you can edit), plus whether a piece
   is available. Photos of a full outfit or a mirror selfie may show you; they are stored privately and only
@@ -36,6 +36,11 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   one, we also store that text and how Zecosia read it: the nearest standard occasion, a short general
   category (such as "job interview"), how formal and how active it is, whether it is indoors or outdoors, and
   the vibes it offered you.
+- **Looks you recreate:** when you use Recreate a Look, the inspiration photo you pick (a screenshot or photo
+  of an outfit) and a short description of how Zecosia read it (such as "Boxy overshirt · Wide trousers").
+  The photo is stored privately with the look it produced and only your account can access it. If no look
+  comes out of it, the photo is deleted. Such a photo may show other people; please only pick ones you are
+  allowed to use.
 - **Outfit requests in progress:** while a look is being built, the request and its status (and, once ready,
   the look), so the look is not lost if you leave the app before it is done.
 - **Notifications:** if you allow them, your phone's push token, used only to tell you when an outfit is ready.
@@ -46,8 +51,9 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
 
 - **OpenAI** analyzes the photos you add (to recognize each piece and describe it), creates the cleaned-up
   product images, and picks your outfits from your wardrobe's descriptions and your request. If you describe
-  your occasion in your own words, OpenAI also reads that text to understand it and suggest fitting vibes. It
-  is sent as you wrote it, so please leave out names or other personal details. These requests go from our
+  your occasion in your own words, OpenAI also reads that text to understand it and suggest fitting vibes. For
+  Recreate a Look, OpenAI sees the inspiration photo you picked, to rebuild that look from your wardrobe. The
+  occasion text is sent as you wrote it, so please leave out names or other personal details. These requests go from our
   servers, not from your phone, and we add no name or email to them. If you set a gender, it goes along with
   the outfit request so the looks fit you; your name, username and profile photo never go to OpenAI. Under
   OpenAI's API terms this data is not used to train their models.
@@ -87,7 +93,8 @@ turn them off at any time in the iPhone's Settings → Zecosia → Notifications
 
 ## Camera and photos
 
-The app only sees the photos you take or pick for your wardrobe, and the photo you pick for your profile.
+The app only sees the photos you take or pick for your wardrobe, the inspiration photo you pick for Recreate a
+Look, and the photo you pick for your profile.
 
 ## On your device
 
@@ -98,7 +105,8 @@ Your sign-in session, your language choice and an outfit request that is still b
 - **A single piece:** open it in your wardrobe and tap **Delete piece**.
 - **Your profile photo:** in Settings, tap the trash icon on the photo and save.
 - **Everything:** in the app, **You → Delete account** (or **Delete guest data** for guests). This permanently
-  removes your photos, profile, wardrobe, looks (including any occasions you described), your push token and
+  removes your photos (including inspiration photos), profile, wardrobe, looks (including any occasions you
+  described), your push token and
   your account from our servers. It cannot be undone.
 
 ## Children
@@ -119,7 +127,7 @@ Questions about this policy or your data: **zecosia1907@gmail.com**
 
 # Zecosia — Gizlilik Politikası
 
-**Yürürlük tarihi:** 28 Ekim 2026
+**Yürürlük tarihi:** 30 Ekim 2026
 
 Zecosia ("uygulama"), zaten sahip olduğun kıyafetlerden kombin hazırlar. Bu politika, uygulamayı kullanırken
 verilerine ne olduğunu açıklar. Kısaca: **uygulama kombin önerebilmek için gardırobunu saklar, yapay zekâ
@@ -141,8 +149,9 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
 - **Hesap bilgileri:** e-posta adresin (misafirlerde yok), nasıl giriş yaptığın (Apple, Google ya da e-posta)
   ve ne zaman katıldığın. Apple'ın "E-postamı Gizle" özelliği desteklenir.
 - **Profilin** (yalnızca hesaplarda; girişten sonra bir kez oluşturulur, Ayarlar'dan düzenlenir): bir kullanıcı
-  adı ve eklemek istersen görünen adın, profil fotoğrafın ve cinsiyetin (Erkek, Kadın ya da "Belirtmek
-  istemiyorum"). Ad, Apple ya da Google hesabından önceden doldurulabilir; değiştirebilir ya da silebilirsin.
+  adı ve eklemek istersen görünen adın, profil fotoğrafın ve cinsiyetin (Erkek, Kadın, Non-binary ya da
+  "Belirtmek istemiyorum"). Ad, Apple ya da Google hesabından önceden doldurulabilir; değiştirebilir ya da
+  silebilirsin.
   Cinsiyet yalnızca sana uygun parçaları seçmek için kullanılır.
 - **Gardırobun:** eklediğin fotoğraflar, bunlardan üretilen temiz ürün görselleri ve her parçanın açıklaması
   (ad, renk, tür, kalıp, kumaş gibi bilgiler; düzenleyebilirsin), ayrıca parçanın kullanılabilir olup olmadığı.
@@ -154,6 +163,11 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   metni ve Zecosia'nın onu nasıl yorumladığını da saklarız: en yakın standart ortam, kısa ve genel bir kategori
   (örneğin "iş görüşmesi"), ne kadar resmi ve hareketli olduğu, içeride mi dışarıda mı geçtiği ve sana önerdiği
   tarzlar.
+- **Yeniden kurduğun kombinler:** Bir kombini yeniden yarat özelliğini kullandığında seçtiğin ilham fotoğrafı
+  (bir kombinin ekran görüntüsü ya da fotoğrafı) ve Zecosia'nın onu nasıl okuduğuna dair kısa bir açıklama
+  (örneğin "Bol gömlek · Geniş paça pantolon"). Fotoğraf, ortaya çıkan kombinle birlikte gizli olarak saklanır
+  ve yalnızca senin hesabın erişebilir. Ortaya bir kombin çıkmazsa fotoğraf silinir. Bu tür fotoğraflar başka
+  kişileri gösterebilir; lütfen yalnızca kullanma hakkın olanları seç.
 - **Hazırlanmakta olan kombin istekleri:** bir kombin hazırlanırken istek ve durumu (hazır olunca da kombin);
   böylece kombin bitmeden uygulamadan çıksan da kaybolmaz.
 - **Bildirimler:** izin verirsen telefonunun bildirim (push) anahtarı; yalnızca kombinin hazır olduğunu haber
@@ -165,7 +179,9 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
 
 - **OpenAI**, eklediğin fotoğrafları analiz eder (her parçayı tanıyıp tarif etmek için), temiz ürün görsellerini
   üretir ve gardırobunun açıklamalarıyla isteğine göre kombinini seçer. Ortamını kendi cümlelerinle
-  anlatırsan OpenAI bu metni de anlamak ve uygun tarzlar önermek için okur. Metin yazdığın gibi gönderilir, bu
+  anlatırsan OpenAI bu metni de anlamak ve uygun tarzlar önermek için okur. Bir kombini yeniden yarat
+  özelliğinde OpenAI, o kombini gardırobunla yeniden kurmak için seçtiğin ilham fotoğrafını görür. Ortam metni
+  yazdığın gibi gönderilir, bu
   yüzden isim ya da başka kişisel bilgi yazmamanı öneririz. Bu istekler telefonundan değil sunucularımızdan
   gider; biz bunlara adını ya da e-postanı eklemeyiz. Cinsiyet belirlediysen kombinler sana uysun diye kombin
   isteğiyle birlikte gönderilir; adın, kullanıcı adın ve profil fotoğrafın OpenAI'a hiç gitmez. OpenAI'ın API
@@ -207,8 +223,8 @@ zaman iPhone'un Ayarlar → Zecosia → Bildirimler bölümünden kapatabilirsin
 
 ## Kamera ve fotoğraflar
 
-Uygulama yalnızca gardırobun için çektiğin ya da seçtiğin fotoğrafları ve profilin için seçtiğin fotoğrafı
-görür.
+Uygulama yalnızca gardırobun için çektiğin ya da seçtiğin fotoğrafları, Bir kombini yeniden yarat için seçtiğin
+ilham fotoğrafını ve profilin için seçtiğin fotoğrafı görür.
 
 ## Cihazında
 
@@ -219,7 +235,8 @@ Oturumun, dil seçimin ve hâlâ hazırlanmakta olan bir kombin isteği telefonu
 - **Tek bir parça:** gardırobunda parçayı aç ve **Parçayı sil**'e dokun.
 - **Profil fotoğrafın:** Ayarlar'da fotoğrafın üstündeki çöp kutusuna dokun ve kaydet.
 - **Her şey:** uygulamada **Profil → Hesabı sil** (misafirler için **Misafir verilerini sil**). Bu işlem
-  fotoğraflarını, profilini, gardırobunu, kombinlerini (anlattığın ortamlar dahil), bildirim anahtarını ve
+  fotoğraflarını (ilham fotoğrafları dahil), profilini, gardırobunu, kombinlerini (anlattığın ortamlar dahil),
+  bildirim anahtarını ve
   hesabını sunucularımızdan kalıcı olarak siler. Geri alınamaz.
 
 ## Çocuklar
