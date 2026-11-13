@@ -32,7 +32,8 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   your account can access them.
 - **Your looks:** the pieces in each suggested outfit, its short title and explanation, what you asked for
   (occasion, vibe, time, how you're getting there), the weather summary it was built for, and whether you
-  wore it, saved it or asked for another. If you describe the occasion in your own words instead of picking
+  wore it, saved it or asked for another, and the rating you gave it if you rated it (the rating is your own
+  note; it does not change what Zecosia suggests). If you describe the occasion in your own words instead of picking
   one, we also store that text and how Zecosia read it: the nearest standard occasion, a short general
   category (such as "job interview"), how formal and how active it is, whether it is indoors or outdoors, and
   the vibes it offered you.
@@ -164,7 +165,8 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   hesabın erişebilir.
 - **Kombinlerin:** önerilen her kombindeki parçalar, kısa başlığı ve açıklaması, istediğin şey (ortam, tarz,
   zaman, oraya nasıl gideceğin), kombinin hazırlandığı hava özeti ve onu giyip giymediğin, kaydedip etmediğin
-  ya da başka bir kombin isteyip istemediğin. Ortamı listeden seçmek yerine kendi cümlelerinle anlatırsan bu
+  ya da başka bir kombin isteyip istemediğin ve puanladıysan verdiğin puan (puan senin kendi notundur;
+  Zecosia'nın önerilerini değiştirmez). Ortamı listeden seçmek yerine kendi cümlelerinle anlatırsan bu
   metni ve Zecosia'nın onu nasıl yorumladığını da saklarız: en yakın standart ortam, kısa ve genel bir kategori
   (örneğin "iş görüşmesi"), ne kadar resmi ve hareketli olduğu, içeride mi dışarıda mı geçtiği ve sana önerdiği
   tarzlar.
