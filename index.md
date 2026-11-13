@@ -1,6 +1,6 @@
 # Zecosia — Privacy Policy
 
-**Effective date:** October 30, 2026 · [Türkçe aşağıda](#türkçe)
+**Effective date:** November 13, 2026 · [Türkçe aşağıda](#türkçe)
 **Published at:** https://frkxo.github.io/zecosia-legal/
 
 Zecosia ("the app") builds outfits from the clothes you already own. This policy explains what happens with
@@ -36,6 +36,10 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   one, we also store that text and how Zecosia read it: the nearest standard occasion, a short general
   category (such as "job interview"), how formal and how active it is, whether it is indoors or outdoors, and
   the vibes it offered you.
+- **Your choices and feedback:** each time you wear, save or pass over a look is kept with its date, so later
+  suggestions can lean toward what you actually choose. If you answer the optional "What should I adjust?"
+  question, we also store your answer: the reason you picked, the pieces you pointed out, what didn't fit, and
+  any words you typed. We use these to improve your suggestions and the app; they are not sent to OpenAI.
 - **Looks you recreate:** when you use Recreate a Look, the inspiration photo you pick (a screenshot or photo
   of an outfit) and a short description of how Zecosia read it (such as "Boxy overshirt · Wide trousers").
   The photo is stored privately with the look it produced and only your account can access it. If no look
@@ -74,7 +78,8 @@ We do not sell your data, and the app contains no advertising, analytics or trac
 
 To see which occasions are missing from the app's list, we look at total counts of the general categories
 Zecosia gives to described occasions (for example, how often "job interview" comes up). Only those categories
-are used for this, not the text you typed, and nothing is shared or made public.
+are used for this, not the text you typed, and nothing is shared or made public. We also look at how often each
+feedback answer is chosen, and may read the words people add to it, to improve the suggestions.
 
 ## Your location
 
@@ -106,7 +111,7 @@ Your sign-in session, your language choice and an outfit request that is still b
 - **Your profile photo:** in Settings, tap the trash icon on the photo and save.
 - **Everything:** in the app, **You → Delete account** (or **Delete guest data** for guests). This permanently
   removes your photos (including inspiration photos), profile, wardrobe, looks (including any occasions you
-  described), your push token and
+  described, your choices and any feedback you gave), your push token and
   your account from our servers. It cannot be undone.
 
 ## Children
@@ -127,7 +132,7 @@ Questions about this policy or your data: **zecosia1907@gmail.com**
 
 # Zecosia — Gizlilik Politikası
 
-**Yürürlük tarihi:** 30 Ekim 2026
+**Yürürlük tarihi:** 13 Kasım 2026
 
 Zecosia ("uygulama"), zaten sahip olduğun kıyafetlerden kombin hazırlar. Bu politika, uygulamayı kullanırken
 verilerine ne olduğunu açıklar. Kısaca: **uygulama kombin önerebilmek için gardırobunu saklar, yapay zekâ
@@ -163,6 +168,10 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   metni ve Zecosia'nın onu nasıl yorumladığını da saklarız: en yakın standart ortam, kısa ve genel bir kategori
   (örneğin "iş görüşmesi"), ne kadar resmi ve hareketli olduğu, içeride mi dışarıda mı geçtiği ve sana önerdiği
   tarzlar.
+- **Seçimlerin ve geri bildirimin:** bir kombini her giyişin, kaydedişin ya da geçişin tarihiyle birlikte
+  saklanır; böylece sonraki öneriler gerçekten seçtiklerine yaklaşabilir. İsteğe bağlı "Neyi değiştireyim?"
+  sorusunu yanıtlarsan cevabını da saklarız: seçtiğin neden, işaret ettiğin parçalar, neyin uymadığı ve
+  yazdığın kelimeler. Bunları önerilerini ve uygulamayı iyileştirmek için kullanırız; OpenAI'a gönderilmez.
 - **Yeniden kurduğun kombinler:** Bir kombini yeniden yarat özelliğini kullandığında seçtiğin ilham fotoğrafı
   (bir kombinin ekran görüntüsü ya da fotoğrafı) ve Zecosia'nın onu nasıl okuduğuna dair kısa bir açıklama
   (örneğin "Bol gömlek · Geniş paça pantolon"). Fotoğraf, ortaya çıkan kombinle birlikte gizli olarak saklanır
@@ -204,7 +213,8 @@ Verilerini satmayız; uygulamada reklam, analitik ya da takip SDK'sı yoktur.
 Uygulamanın listesinde hangi ortamların eksik olduğunu görmek için Zecosia'nın anlatılan ortamlara verdiği
 genel kategorilerin toplam sayılarına bakarız (örneğin "iş görüşmesi"nin ne sıklıkla geçtiği). Bunun için
 yalnızca bu kategoriler kullanılır, yazdığın metin kullanılmaz; hiçbir şey paylaşılmaz ya da herkese açık hale
-getirilmez.
+getirilmez. Ayrıca her geri bildirim cevabının ne sıklıkla seçildiğine bakarız ve önerileri iyileştirmek için
+ona eklenen kelimeleri okuyabiliriz.
 
 ## Konumun
 
@@ -235,7 +245,8 @@ Oturumun, dil seçimin ve hâlâ hazırlanmakta olan bir kombin isteği telefonu
 - **Tek bir parça:** gardırobunda parçayı aç ve **Parçayı sil**'e dokun.
 - **Profil fotoğrafın:** Ayarlar'da fotoğrafın üstündeki çöp kutusuna dokun ve kaydet.
 - **Her şey:** uygulamada **Profil → Hesabı sil** (misafirler için **Misafir verilerini sil**). Bu işlem
-  fotoğraflarını (ilham fotoğrafları dahil), profilini, gardırobunu, kombinlerini (anlattığın ortamlar dahil),
+  fotoğraflarını (ilham fotoğrafları dahil), profilini, gardırobunu, kombinlerini (anlattığın ortamlar,
+  seçimlerin ve verdiğin geri bildirimler dahil),
   bildirim anahtarını ve
   hesabını sunucularımızdan kalıcı olarak siler. Geri alınamaz.
 
