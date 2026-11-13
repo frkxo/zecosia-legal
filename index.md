@@ -81,7 +81,9 @@ We do not sell your data, and the app contains no advertising, analytics or trac
 To see which occasions are missing from the app's list, we look at total counts of the general categories
 Zecosia gives to described occasions (for example, how often "job interview" comes up). Only those categories
 are used for this, not the text you typed, and nothing is shared or made public. We also look at how often each
-feedback answer is chosen, and may read the words people add to it, to improve the suggestions.
+feedback answer is chosen, and may read the words people add to it, to improve the suggestions. For the same
+purpose we look at total counts of how looks are received: how often they are worn, saved, passed over, edited
+or rated. These counts stay with us; they are not shared, sold or made public.
 
 ## Your location
 
@@ -218,7 +220,9 @@ Uygulamanın listesinde hangi ortamların eksik olduğunu görmek için Zecosia'
 genel kategorilerin toplam sayılarına bakarız (örneğin "iş görüşmesi"nin ne sıklıkla geçtiği). Bunun için
 yalnızca bu kategoriler kullanılır, yazdığın metin kullanılmaz; hiçbir şey paylaşılmaz ya da herkese açık hale
 getirilmez. Ayrıca her geri bildirim cevabının ne sıklıkla seçildiğine bakarız ve önerileri iyileştirmek için
-ona eklenen kelimeleri okuyabiliriz.
+ona eklenen kelimeleri okuyabiliriz. Aynı amaçla kombinlerin nasıl karşılandığına dair toplam sayılara da
+bakarız: ne sıklıkla giyildikleri, kaydedildikleri, geçildikleri, düzenlendikleri ya da puanlandıkları. Bu
+sayılar bizde kalır; paylaşılmaz, satılmaz ve herkese açık hale getirilmez.
 
 ## Konumun
 
