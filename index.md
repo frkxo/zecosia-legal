@@ -37,8 +37,9 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   one, we also store that text and how Zecosia read it: the nearest standard occasion, a short general
   category (such as "job interview"), how formal and how active it is, whether it is indoors or outdoors, and
   the vibes it offered you.
-- **Your choices and feedback:** each time you wear, save or pass over a look is kept with its date, so later
-  suggestions can lean toward what you actually choose. If you answer the optional "What should I adjust?"
+- **Your choices and feedback:** each time you wear, save, pass over or change a piece of a look is kept with
+  its date, so later suggestions can lean toward what you actually choose. If you change a piece yourself, the
+  look as Zecosia first suggested it is kept too. If you answer the optional "What should I adjust?"
   question, we also store your answer: the reason you picked, the pieces you pointed out, what didn't fit, and
   any words you typed. We use these to improve your suggestions and the app; they are not sent to OpenAI.
 - **Looks you recreate:** when you use Recreate a Look, the inspiration photo you pick (a screenshot or photo
@@ -170,8 +171,9 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   metni ve Zecosia'nın onu nasıl yorumladığını da saklarız: en yakın standart ortam, kısa ve genel bir kategori
   (örneğin "iş görüşmesi"), ne kadar resmi ve hareketli olduğu, içeride mi dışarıda mı geçtiği ve sana önerdiği
   tarzlar.
-- **Seçimlerin ve geri bildirimin:** bir kombini her giyişin, kaydedişin ya da geçişin tarihiyle birlikte
-  saklanır; böylece sonraki öneriler gerçekten seçtiklerine yaklaşabilir. İsteğe bağlı "Neyi değiştireyim?"
+- **Seçimlerin ve geri bildirimin:** bir kombini her giyişin, kaydedişin, geçişin ya da bir parçasını
+  değiştirişin tarihiyle birlikte saklanır; böylece sonraki öneriler gerçekten seçtiklerine yaklaşabilir. Bir
+  parçayı kendin değiştirirsen kombinin Zecosia'nın ilk önerdiği hali de saklanır. İsteğe bağlı "Neyi değiştireyim?"
   sorusunu yanıtlarsan cevabını da saklarız: seçtiğin neden, işaret ettiğin parçalar, neyin uymadığı ve
   yazdığın kelimeler. Bunları önerilerini ve uygulamayı iyileştirmek için kullanırız; OpenAI'a gönderilmez.
 - **Yeniden kurduğun kombinler:** Bir kombini yeniden yarat özelliğini kullandığında seçtiğin ilham fotoğrafı
