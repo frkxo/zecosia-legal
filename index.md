@@ -1,6 +1,6 @@
 # Zecosia — Privacy Policy
 
-**Effective date:** November 13, 2026 · [Türkçe aşağıda](#türkçe)
+**Effective date:** November 19, 2026 · [Türkçe aşağıda](#türkçe)
 **Published at:** https://frkxo.github.io/zecosia-legal/
 
 Zecosia ("the app") builds outfits from the clothes you already own. This policy explains what happens with
@@ -31,7 +31,8 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   is available. Photos of a full outfit or a mirror selfie may show you; they are stored privately and only
   your account can access them.
 - **Your looks:** the pieces in each suggested outfit, its short title and explanation, what you asked for
-  (occasion, vibe, time, how you're getting there), the weather summary it was built for, and whether you
+  (occasion, vibe, time, how you're getting there; in Start with your Picks, the pieces you picked for the
+  look to be built around), the weather summary it was built for, and whether you
   wore it, saved it or asked for another, and the rating you gave it if you rated it (the rating is your own
   note; it does not change what Zecosia suggests). If you describe the occasion in your own words instead of picking
   one, we also store that text and how Zecosia read it: the nearest standard occasion, a short general
@@ -51,12 +52,17 @@ Data is stored by [Supabase](https://supabase.com/privacy) in the European Union
   the look), so the look is not lost if you leave the app before it is done.
 - **Notifications:** if you allow them, your phone's push token, used only to tell you when an outfit is ready.
 - **Preferences:** a city for the weather, if you set one.
-- **Usage counts:** the type and time of each AI request, used to apply daily limits.
+- **Usage records:** the type and time of each AI request, used to apply daily limits. For each request we
+  also keep technical measurements of what it took: which feature and AI model it was for, how much processing
+  it used (the token counts the AI provider reports), how long it took, whether it succeeded, how many pieces
+  your wardrobe had at that moment, and which look or piece it belonged to. These records contain no photos,
+  none of the text you wrote and none of the AI's answers.
 
 ## Who processes your data for us
 
 - **OpenAI** analyzes the photos you add (to recognize each piece and describe it), creates the cleaned-up
-  product images, and picks your outfits from your wardrobe's descriptions and your request. If you describe
+  product images, and picks your outfits from your wardrobe's descriptions and your request (in Start with
+  your Picks, that includes which pieces you picked). If you describe
   your occasion in your own words, OpenAI also reads that text to understand it and suggest fitting vibes. For
   Recreate a Look, OpenAI sees the inspiration photo you picked, to rebuild that look from your wardrobe. The
   occasion text is sent as you wrote it, so please leave out names or other personal details. These requests go from our
@@ -83,14 +89,17 @@ Zecosia gives to described occasions (for example, how often "job interview" com
 are used for this, not the text you typed, and nothing is shared or made public. We also look at how often each
 feedback answer is chosen, and may read the words people add to it, to improve the suggestions. For the same
 purpose we look at total counts of how looks are received: how often they are worn, saved, passed over, edited
-or rated. These counts stay with us; they are not shared, sold or made public.
+or rated. We also add up the usage records described above to understand what running the app costs, per
+feature and per account, which is how usage limits and plans are set. These counts stay with us; they are not
+shared, sold or made public.
 
 ## Your location
 
 Location is **off until you ask for it** in "Find me a Look", and the app reads it only while it is open, never
 in the background. When allowed, your phone sends an approximate position directly to Open-Meteo to get the
-forecast for when you'll wear the outfit. Your position is **not stored** by us. Without location you can type
-a city instead, or continue without weather.
+forecast for when you'll wear the outfit. Once you have allowed it there, Start with your Picks uses it the same
+way for the current weather; it never asks for location on its own. Your position is **not stored** by us.
+Without location you can type a city instead, or continue without weather.
 
 ## Notifications
 
@@ -115,7 +124,7 @@ Your sign-in session, your language choice and an outfit request that is still b
 - **Your profile photo:** in Settings, tap the trash icon on the photo and save.
 - **Everything:** in the app, **You → Delete account** (or **Delete guest data** for guests). This permanently
   removes your photos (including inspiration photos), profile, wardrobe, looks (including any occasions you
-  described, your choices and any feedback you gave), your push token and
+  described, your choices and any feedback you gave), your usage records, your push token and
   your account from our servers. It cannot be undone.
 
 ## Children
@@ -136,7 +145,7 @@ Questions about this policy or your data: **zecosia1907@gmail.com**
 
 # Zecosia — Gizlilik Politikası
 
-**Yürürlük tarihi:** 13 Kasım 2026
+**Yürürlük tarihi:** 19 Kasım 2026
 
 Zecosia ("uygulama"), zaten sahip olduğun kıyafetlerden kombin hazırlar. Bu politika, uygulamayı kullanırken
 verilerine ne olduğunu açıklar. Kısaca: **uygulama kombin önerebilmek için gardırobunu saklar, yapay zekâ
@@ -167,7 +176,8 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
   Tam kombin fotoğrafları ya da ayna selfie'leri seni gösterebilir; gizli olarak saklanır ve yalnızca senin
   hesabın erişebilir.
 - **Kombinlerin:** önerilen her kombindeki parçalar, kısa başlığı ve açıklaması, istediğin şey (ortam, tarz,
-  zaman, oraya nasıl gideceğin), kombinin hazırlandığı hava özeti ve onu giyip giymediğin, kaydedip etmediğin
+  zaman, oraya nasıl gideceğin; Seçtiklerinle başla'da kombinin etrafında kurulması için seçtiğin parçalar),
+  kombinin hazırlandığı hava özeti ve onu giyip giymediğin, kaydedip etmediğin
   ya da başka bir kombin isteyip istemediğin ve puanladıysan verdiğin puan (puan senin kendi notundur;
   Zecosia'nın önerilerini değiştirmez). Ortamı listeden seçmek yerine kendi cümlelerinle anlatırsan bu
   metni ve Zecosia'nın onu nasıl yorumladığını da saklarız: en yakın standart ortam, kısa ve genel bir kategori
@@ -188,12 +198,17 @@ Veriler [Supabase](https://supabase.com/privacy) tarafından Avrupa Birliği'nde
 - **Bildirimler:** izin verirsen telefonunun bildirim (push) anahtarı; yalnızca kombinin hazır olduğunu haber
   vermek için kullanılır.
 - **Tercihler:** hava durumu için belirlediğin bir şehir (varsa).
-- **Kullanım sayıları:** her yapay zekâ isteğinin türü ve zamanı; günlük sınırları uygulamak için.
+- **Kullanım kayıtları:** her yapay zekâ isteğinin türü ve zamanı; günlük sınırları uygulamak için. Her istek
+  için ayrıca neye mal olduğuna dair teknik ölçümleri saklarız: hangi özellik ve hangi yapay zekâ modeli için
+  yapıldığı, ne kadar işlem kullandığı (yapay zekâ sağlayıcısının bildirdiği token sayıları), ne kadar sürdüğü,
+  başarılı olup olmadığı, o anda gardırobunda kaç parça olduğu ve hangi kombine ya da parçaya ait olduğu. Bu
+  kayıtlarda fotoğraf, yazdığın metin ya da yapay zekânın cevabı bulunmaz.
 
 ## Verilerini bizim için kimler işler
 
 - **OpenAI**, eklediğin fotoğrafları analiz eder (her parçayı tanıyıp tarif etmek için), temiz ürün görsellerini
-  üretir ve gardırobunun açıklamalarıyla isteğine göre kombinini seçer. Ortamını kendi cümlelerinle
+  üretir ve gardırobunun açıklamalarıyla isteğine göre kombinini seçer (Seçtiklerinle başla'da buna hangi
+  parçaları seçtiğin de dahildir). Ortamını kendi cümlelerinle
   anlatırsan OpenAI bu metni de anlamak ve uygun tarzlar önermek için okur. Bir kombini yeniden yarat
   özelliğinde OpenAI, o kombini gardırobunla yeniden kurmak için seçtiğin ilham fotoğrafını görür. Ortam metni
   yazdığın gibi gönderilir, bu
@@ -221,15 +236,18 @@ genel kategorilerin toplam sayılarına bakarız (örneğin "iş görüşmesi"ni
 yalnızca bu kategoriler kullanılır, yazdığın metin kullanılmaz; hiçbir şey paylaşılmaz ya da herkese açık hale
 getirilmez. Ayrıca her geri bildirim cevabının ne sıklıkla seçildiğine bakarız ve önerileri iyileştirmek için
 ona eklenen kelimeleri okuyabiliriz. Aynı amaçla kombinlerin nasıl karşılandığına dair toplam sayılara da
-bakarız: ne sıklıkla giyildikleri, kaydedildikleri, geçildikleri, düzenlendikleri ya da puanlandıkları. Bu
-sayılar bizde kalır; paylaşılmaz, satılmaz ve herkese açık hale getirilmez.
+bakarız: ne sıklıkla giyildikleri, kaydedildikleri, geçildikleri, düzenlendikleri ya da puanlandıkları.
+Yukarıda anlatılan kullanım kayıtlarını da toplayarak uygulamayı çalıştırmanın özellik ve hesap başına neye mal
+olduğunu anlarız; kullanım sınırları ve planlar buna göre belirlenir. Bu sayılar bizde kalır; paylaşılmaz,
+satılmaz ve herkese açık hale getirilmez.
 
 ## Konumun
 
 Konum, "Bana bir kombin bul" içinde sen isteyene kadar **kapalıdır** ve uygulama onu yalnızca açıkken okur,
 asla arka planda değil. İzin verirsen telefonun, kombini giyeceğin zamanın hava tahmini için yaklaşık konumunu
-doğrudan Open-Meteo'ya gönderir. Konumun bizim tarafımızdan **saklanmaz**. Konum olmadan bir şehir yazabilir
-ya da hava durumu olmadan devam edebilirsin.
+doğrudan Open-Meteo'ya gönderir. Orada izin verdikten sonra Seçtiklerinle başla da o anki hava durumu için
+konumu aynı şekilde kullanır; kendi başına konum izni istemez. Konumun bizim tarafımızdan **saklanmaz**. Konum
+olmadan bir şehir yazabilir ya da hava durumu olmadan devam edebilirsin.
 
 ## Bildirimler
 
@@ -254,7 +272,7 @@ Oturumun, dil seçimin ve hâlâ hazırlanmakta olan bir kombin isteği telefonu
 - **Profil fotoğrafın:** Ayarlar'da fotoğrafın üstündeki çöp kutusuna dokun ve kaydet.
 - **Her şey:** uygulamada **Profil → Hesabı sil** (misafirler için **Misafir verilerini sil**). Bu işlem
   fotoğraflarını (ilham fotoğrafları dahil), profilini, gardırobunu, kombinlerini (anlattığın ortamlar,
-  seçimlerin ve verdiğin geri bildirimler dahil),
+  seçimlerin ve verdiğin geri bildirimler dahil), kullanım kayıtlarını,
   bildirim anahtarını ve
   hesabını sunucularımızdan kalıcı olarak siler. Geri alınamaz.
 
